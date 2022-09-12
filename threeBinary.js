@@ -22,7 +22,7 @@ const monkeyUrl = new URL('bestar4.glb', import.meta.url);
 renderer.setSize(window.innerWidth, window.innerHeight);
 
 document.body.appendChild(renderer.domElement);
-
+ 
 const scene = new THREE.Scene();
 
 {
